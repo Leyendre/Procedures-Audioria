@@ -31,13 +31,13 @@ Creo una tabla  donde se registraran las modificaciones de los procedimientos al
 
 Con el siguiente trigger que se ejecutara en los siguientes eventos
 
-**TABLAS : **
+**TABLAS:**
 
  - create 
  - alter 
  - drop
  
-**PROCEDURES : **
+**PROCEDURES:**
 
  - create
  - alter 
