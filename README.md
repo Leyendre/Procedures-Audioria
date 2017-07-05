@@ -1,7 +1,7 @@
 **TABLA**
 -----
 Creo una tabla  donde se registraran las modificaciones de los procedimientos almacenados.
-```sql
+
     CREATE TABLE [dbo].[AUD_PROCEDURE](
     	dt_fecha SMALLDATETIME NOT NULL,
     	st_database NVARCHAR(256) NOT NULL,
@@ -22,7 +22,6 @@ Creo una tabla  donde se registraran las modificaciones de los procedimientos al
     ALTER TABLE [dbo].[AUD_PROCEDURE] ADD  CONSTRAINT [DF__AUD_PROCEDURE_FECHA_MOD]  DEFAULT CAST(GETDATE() AS SMALLDATETIME)  FOR [dt_fecha]
     
     GO
-...
 
 ----------
 
